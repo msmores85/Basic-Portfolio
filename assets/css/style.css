@@ -68,11 +68,6 @@ h2 {
     margin:20px;
 
 }
-img { 
-    height: 200px;
-    width: 220px;
-    margin: 20px; 
-}
 
 #content{
     float: center;
@@ -108,13 +103,18 @@ h3{
     left: 20px;
 }
 
+.img2 { 
+    height: 200px;
+    width: 220px;
+    padding: 20px;
+}
 
-h4 {
+p {
     font: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.img2 { 
-    height: 200px;
-    width: 220px;
+input {
+    font: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
