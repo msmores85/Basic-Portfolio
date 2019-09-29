@@ -6,26 +6,27 @@
         <link rel="stylesheet" type="text/css" href="../Basic-Portfolio/assets/css/style.css">
     </head>
     <body>
-        <header>
+        <header>            
             <section id="main">
                 <h1>Maria Simoes</h1>
             </section>
-            <nav id="links">
-                <a href="index.html">About</a> |
-                <a href="portfolio.html">Portfolio</a> |
-                <a href="contact.html">Contact</a>
+            <!--Nav Bar Information to create an in-line navigation bar/list from: https://www.w3schools.com/css/css_navbar.asp-->
+            <nav>
+                <ul>
+                    <li id="nav1"><a href="index.html">About</a></li>
+                    <li id="nav2"><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </nav>
+
         </header>
 
 
         <div class="container"> 
         
-                <section>
-                <aside>
-                <h2>Contact</h2>
-                </aside>
                 <!--Form coding received from: https://www.w3schools.com/html/html_form_elements.asp-->
                 <section id="content">
+                    <h2>Contact</h2>
                     <form method="post" action="mailto:msmores85@gmail.com? subject=subject text">
                         <p>Name</p>
                         <input type="text" name="name" value="John Smith">
@@ -38,7 +39,7 @@
                         <input type="submit">
                     
                     </form>
-                </section>
+            
                 </section>
         </div>
 
